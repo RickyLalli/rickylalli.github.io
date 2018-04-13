@@ -1,0 +1,83 @@
+
+/* updated submit button */
+/*
+.btn-primary {
+  background-color: pink;
+} */
+
+
+
+
+/* working on hover text animation/showing */
+
+/* .overlayTest {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.card:hover .overlayTest {
+  width: 100%;
+}
+
+.textTest {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+} */
+
+/*
+
+Page References
+
+images
+https://unsplash.com/photos/czDvRp5V2b0
+https://unsplash.com/photos/Xf5aySvYSb4
+https://unsplash.com/photos/GkinCd2enIY
+https://unsplash.com/photos/l3N9Q27zULw
+https://unsplash.com/photos/zEqkUMiMxMI
+https://unsplash.com/photos/5m5V-Sdxe6Q
+https://unsplash.com/photos/2NPV75ItVhg
+
+code
+https://stackoverflow.com/questions/14149360/text-on-image-mouseover
+https://getbootstrap.com/docs/4.0/components/card/
+https://codepen.io/Remedy/pen/ZYJrpp
+https://stackoverflow.com/questions/21733951/bootstrap-3-navbar-toggle-collapses-but-button-does-not-appear
+https://stackoverflow.com/questions/46804180/bootstrap-navbar-toggler-icon-hamburger-size
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_slideleft
+https://css-tricks.com/swapping-out-text-five-different-ways/
+
+
+video
+https://www.youtube.com/watch?v=EwR1P-zjTAc
+
+fonts
+http://www.1001fonts.com/scriptina-font.html
+https://www.pixelsurplus.com/freebies/the-woodlands
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
