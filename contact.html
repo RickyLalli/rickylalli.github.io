@@ -16,8 +16,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="scss/styles.min.css">
-
+ <!-- <link rel="stylesheet" href="scss/styles.min.css"> -->
+ <link rel="stylesheet" href="css/styles.css">
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
@@ -80,51 +80,59 @@
 
         </div>
 
-        <form name="contact" action="" method="POST" >
+
+
+     
+
+
+        <form action="https://formspree.io/f/xaylvedp" method="POST">
           <div class="row">
             <label for="inputFirstName" class="col-sm-2 col-form-label">First&nbsp;Name&#42;</label>
             <div class="col-sm-12 col-md-4 mb-5">
-              <input type="text" name="inputFirstName" class="form-control" id="inputFirstName" placeholder="First name">
+              <input type="text" class="form-control" id="inputFirstName" placeholder="First name">
             </div>
             <label for="inputLastName" class="col-sm-2 col-form-label">Last&nbsp;Name</label>
             <div class="col-sm-12 col-md-4 mb-5">
-              <input type="text" name="inputLastName" class="form-control" id="inputLastName" placeholder="Last name">
+              <input type="text" class="form-control" id="inputLastName" placeholder="Last name">
             </div>
           </div>
-        <!-- </form> -->
+        
 
-        <!-- <form> -->
+        
           <div class="row">
             <label for="inputEmail" class="col-sm-2 col-form-label">Email&#42;</label>
             <div class="col-sm-12 col-md-4 mb-5">
-              <input type="text" name="inputEmail" class="form-control" id="inputEmail" placeholder="Email">
+              <input type="email" class="form-control" name="_replyto" id="inputEmail" placeholder="Email">
             </div>
             <label for="inputTopic" class="col-sm-2 col-form-label">Topic&#42;</label>
             <div class="col-sm-12 col-md-4 mb-5">
-              <input type="text" name="inputTopic" class="form-control" id="inputTopic" placeholder="Topic">
+              <input type="text" class="form-control" id="inputTopic" placeholder="Topic">
             </div>
           </div>
-        <!-- </form> -->
+        
 
-        <!-- <form> -->
+        
           <div class="row">
             <label for="inputMessage" class="col-sm-2 col-form-label">Message&#42;</label>
             <div class="col-sm-12 col-md-10 mb-5">
-              <textarea class="form-control" name="inputMessage" id="inputMessage" rows="3" placeholder="Message..."></textarea>
+              <textarea class="form-control" name="body" id="inputMessage" rows="3" placeholder="Message..."></textarea>
             </div>
           </div>
-        <!-- </form> -->
+        
 
 
         <div class="row">
           <div class="mx-auto">
-            <button type="submit" class="btn btn-primary">Send Message</button>
-            <!-- <input type="submit" value="Submit"> -->
+            <button type="submit" value="Send" class="btn btn-primary">Send Message</button>
           </div>
         </div>
-        </form>
+
+      </form>
 
       </div>
+
+
+
 
     </section>
 
@@ -167,9 +175,52 @@
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
   <script src="js/jquery-3.3.1.slim.min.js"></script>
-  <script src="js/popper.min.js"></script>
+  <script src="js/popper.min.js">
+  </script>
   <script src="js/bootstrap.min.js"></script>
 
 </body>
 
 </html>
+
+
+
+
+
+<!-- 
+
+
+<form>
+  <div class="row">
+    <label for="inputFirstName" class="col-sm-2 col-form-label">First&nbsp;Name&#42;</label>
+    <div class="col-sm-12 col-md-4 mb-5">
+      <input type="text" class="form-control" id="inputFirstName" placeholder="First name">
+    </div>
+    <label for="inputLastName" class="col-sm-2 col-form-label">Last&nbsp;Name</label>
+    <div class="col-sm-12 col-md-4 mb-5">
+      <input type="text" class="form-control" id="inputLastName" placeholder="Last name">
+    </div>
+  </div>
+</form>
+
+<form>
+  <div class="row">
+    <label for="inputEmail" class="col-sm-2 col-form-label">Email&#42;</label>
+    <div class="col-sm-12 col-md-4 mb-5">
+      <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+    </div>
+    <label for="inputTopic" class="col-sm-2 col-form-label">Topic&#42;</label>
+    <div class="col-sm-12 col-md-4 mb-5">
+      <input type="text" class="form-control" id="inputTopic" placeholder="Topic">
+    </div>
+  </div>
+</form>
+
+<form>
+  <div class="row">
+    <label for="inputMessage" class="col-sm-2 col-form-label">Message&#42;</label>
+    <div class="col-sm-12 col-md-10 mb-5">
+      <textarea class="form-control" id="inputMessage" rows="3" placeholder="Message..."></textarea>
+    </div>
+  </div>
+</form> -->
