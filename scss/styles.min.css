@@ -10,6 +10,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  padding: 50px 100px 50px 100px;
+  background-color: pink;
+  color: white;
+  border-radius: 25px;
+  opacity: 50%;
 }
 
 /* Style the <hr> element */
